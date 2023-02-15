@@ -47,5 +47,6 @@ def convert_to_excel(yr):
     df.to_excel(writer, sheet_name='Rahukalam', index=False)
     writer.save()
 
+#function call, specify year you want calculations for
 convert_to_excel(2023)
 
